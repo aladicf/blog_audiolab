@@ -18,7 +18,7 @@ const Categories = () => {
 			{categories.map((category, index) => (
 				<Link key={index} href={`/category/${category.slug}`}>
 					<span
-						className={`cursor-pointer block ${
+						className={`cursor-pointer hover:text-teal-500 block ${
 							index === categories.length - 1 ? 'border-b-0' : 'border-b'
 						} pb-3 mb-3`}
 					>
