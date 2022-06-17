@@ -1,4 +1,4 @@
-# CMS Blog app built with Nextjs, GraphCMS, TailwindCSS.
+#  Blog CMS app built with Nextjs, GraphCMS, TailwindCSS.
 
 Hosted on Vercel.
 
