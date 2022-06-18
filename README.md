@@ -1,4 +1,4 @@
-#  Blog CMS app built with Nextjs, GraphCMS, TailwindCSS.
+#  Blog CMS app built with Nextjs, GraphQL, GraphCMS, TailwindCSS.
 
 Hosted on Vercel.
 
@@ -15,6 +15,8 @@ With following pages:
 With following functionality:
 
 -Adding new blogs or editing/deleting existing ones via Graph Content Managment System.
+
+-Fetching content/data from GraphCMS using GraphQL.
 
 -Posts and Categories listing.
 
