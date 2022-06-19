@@ -14,6 +14,8 @@ const PostCard = ({ post }) => {
 					className='rounded-t-lg shadow-lg lg:rounded-lg'
 					layout='fill'
 					src={post.featuredImage.url}
+					objectFit='contain'
+					priority
 				/>
 			</div>
 			<h1 className='mb-8 text-3xl font-semibold text-center transition duration-500 cursor-pointer hover:text-teal-600'>
@@ -28,7 +30,6 @@ const PostCard = ({ post }) => {
 						width='80px'
 						className='align-middle rounded-full'
 						src={post.author.photo.url}
-						priority
 					/>
 					<p className='inline ml-2 text-lg font-medium text-gray-700 align-middle'>
 						{post.author.name}
