@@ -70,7 +70,6 @@ const PostDetail = ({ post }) => {
 					className='rounded-t-lg shadow-lg lg:rounded-lg'
 					layout='fill'
 					src={post.featuredImage.url}
-					objectFit='contain'
 					priority
 				/>
 			</div>
