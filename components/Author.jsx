@@ -12,7 +12,6 @@ const Author = ({ author }) => (
 				width='100px'
 				className='align-middle rounded-full'
 				src={author.photo.url}
-				priority
 			/>
 		</div>
 		<h3 className='mt-4 mb-4 text-xl font-bold text-white'>{author.name}</h3>
