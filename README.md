@@ -5,7 +5,7 @@ Hosted on Vercel.
 
 With following pages:
 
--Home page that consists of top navigation, Featured blog posts, blog list.
+-Home page.
 
 -Single blog page.
 
